@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Análisis de Imagen Web - Documentación
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido al repositorio del proyecto de análisis de imagen web. A continuación, se presentan capturas de pantalla que ilustran el funcionamiento de la aplicación.
 
-## Available Scripts
+## Capturas de Pantalla
 
-In the project directory, you can run:
+### 0. Vista de la Web de Análisis de Imagen
+![Vista de la Web de Análisis de Imagen](img_/0.png)
 
-### `npm start`
+### 1. Indexación de la Imagen en el DOM
+![Indexación de la Imagen en el DOM](img_/1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Respuesta JSON de la API de Azure
+![Respuesta JSON de la API de Azure](img_/2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uso
 
-### `npm test`
+Para analizar una imagen:
+1. Coloca la URL de la imagen en el campo correspondiente.
+2. Presiona el botón 'Analizar'.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para generar una imagen a partir de texto:
+1 Escribe un mensaje de texto que describa lo que estás buscando generar.
+2. Presiona el botón 'Generar'.
 
-### `npm run build`
+Por favor, asegúrate de que la URL de la imagen sea accesible públicamente y que el mensaje de texto no exceda los 300 caracteres.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuciones
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto es parte del 'Challenge Azure 2023', donde se exploran y se implementan servicios cognitivos de Azure para el análisis y generación de contenido a partir de imágenes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para más detalles sobre el challenge, visita [Challenge Azure 2023](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
