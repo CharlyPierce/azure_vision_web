@@ -20,7 +20,7 @@ Para analizar una imagen:
 2. Presiona el botón 'Analizar'.
 
 Para generar una imagen a partir de texto:
-1 Escribe un mensaje de texto que describa lo que estás buscando generar.
+1. Escribe un mensaje de texto que describa lo que estás buscando generar.
 2. Presiona el botón 'Generar'.
 
 ### 3. Respuesta URL de la API de Azure
