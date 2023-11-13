@@ -184,4 +184,16 @@ input[type="text"]:focus {
   scrollbar-color: #ff6a4d rgba(255, 255, 255, 0.2);
   scrollbar-width: thin;
 }
-  
+
+
+.zoomed-in {
+  position: fixed; /* Cambia la posición a fija para que la imagen se coloque encima del contenido */
+  z-index: 1000; /* Asegúrate de que la imagen está por encima de otros elementos */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(2); /* Centra y escala la imagen */
+  max-width: 100%; /* Asegúrate de que la imagen no exceda el tamaño de la pantalla */
+  max-height: 100%;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); /* Opcional: añade un fondo oscuro alrededor de la imagen */
+  cursor: zoom-out; /* Cambia el cursor para indicar que se puede hacer zoom out */
+}

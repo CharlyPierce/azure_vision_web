@@ -23,6 +23,9 @@ Para generar una imagen a partir de texto:
 1 Escribe un mensaje de texto que describa lo que estás buscando generar.
 2. Presiona el botón 'Generar'.
 
+### 3. Respuesta URL de la API de Azure
+![Respuesta URL INSERTADA de la API de Azure](img_/3.png)
+
 Por favor, asegúrate de que la URL de la imagen sea accesible públicamente y que el mensaje de texto no exceda los 300 caracteres.
 
 ## Contribuciones

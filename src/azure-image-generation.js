@@ -15,19 +15,23 @@ const openai = new OpenAI({
 const generateImage = async (prompt) => {
   try {
     const response = await openai.images.generate({
-      model: "dall-e-3", // The model to use
-      prompt: prompt, // The text prompt for image generation
-      n: 1, // Number of images to generate
-      size: "1024x1024", // Size of the images
-      // You can add more parameters as needed
+      model: "dall-e-3",
+      prompt: prompt,
+      n: 1,
+      size: "1024x1024",
     });
-
-    // Assuming the API response is like the one provided in the documentation
-    return response.data.data[0].url; // Adjust according to the actual response structure
+    console.log('Response:', response); // Esto imprimirá la respuesta completa
+    if (response && response.data && response.data.length > 0) {
+      console.log(response.data[0].url)
+      return response.data[0].url; // Accede a la URL de esta manera
+    } else {
+      throw new Error('No image data found');
+    }
   } catch (error) {
     console.error('Error generating image:', error);
-    throw error; // Propagate the error to handle it higher up in the chain
+    throw error;
   }
 };
+
 
 export default generateImage;
